@@ -25,9 +25,11 @@ Resmi 100 Days Of Code web sitesine göre #100DaysOfCode yarışması için teme
 
 ## Teşekkür
 
-```
-100 gün kod yazma challange yapmak isteyen bir sevdiğim insan tarafından buna olağan üstü bir güzellikle çekildim ve başlangıcımı basit tutmak istedim(açıkçası tam kendim karar vermiş gibi değilim sadece ilk günün bu kadar basit olmasına). Buradan da sevgilerimi yolluyorum kendilerine -p
-```
+
+100 gün kod yazma challange yapmak isteyen bir sevdiğim insan tarafından buna olağan üstü bir güzellikle 
+çekildim ve başlangıcımı basit tutmak istedim(açıkçası tam kendim karar vermiş gibi değilim sadece ilk 
+günün bu kadar basit olmasına). Buradan da sevgilerimi yolluyorum kendilerine -p
+
 
 
 ## License
