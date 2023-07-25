@@ -8,7 +8,7 @@ dördüncü kareye 8 ve sonra hep böyle iki misli olacak
 
 SORU:
 
-64 karenin sonunda ne kadar buğday gerekli?
+64 karenin hepsinin dolumu sonunda ne kadar buğday gerekli?
 
 """
 
