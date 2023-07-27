@@ -6,7 +6,6 @@ print("""
 ****************************************
 """)
 
-
 print("""
 ****************************************
 *             Tour Paris!              *
@@ -16,7 +15,6 @@ print("""
 *           Only for 13 people         *
 ****************************************
 """)
-
 
 print("""
 ****************************************
@@ -28,7 +26,6 @@ print("""
 ****************************************
 """)
 
-
 print("""
 ****************************************
 *          Tour Egypt - Morocco!       *
@@ -39,16 +36,16 @@ print("""
 ****************************************
 """)
 
+
 while True:
 
     print("""
-    We Provide Three Tours
-    1. Tour Paris           (13 People)
-    2. Tour Balkan          (21 People)
-    3. Tour Egypt - Morocco (20 People)
+We Provide Three Tours
+1. Tour Paris           (13 People)
+2. Tour Balkan          (21 People)
+3. Tour Egypt - Morocco (20 People)
 
     """)
-
 
     Package = int(input("Please Choose Package (1,2 or 3): "))
 
@@ -77,7 +74,7 @@ while True:
         Student = int(input("How many students are you have: "))
 
         if Person >=0 and Person <= 21:
-            if Student >=0 and Student <= 13:
+            if Student >=0 and Student <= 21:
                 cutstdnt = (Student * 1200)*(20/100)
                 stprice = (Student*1200) - cutstdnt
                 prsnprice = (Person-Student)*1200
@@ -89,13 +86,17 @@ while True:
             print("21 with the highest capacity of the tours we offer.")
             break
 
+    if Package == 3:
+        Person  = int(input("How many people are you be: "))
+        Student = int(input("How many students are you have: "))
 
-    
-
-    #Person  = int(input("How many people are you be: "))
-    #Student = int(input("How many students are you have: "))
-
-
-
-
-
+        if Student >=0 and Student <= 20:
+                cutstdnt = (Student * 2500)*(20/100)
+                stprice = (Student*2500) - cutstdnt
+                prsnprice = (Person-Student)*2500
+                totalprice = stprice+prsnprice
+                print(f"Your total bill is {totalprice} Euro. {stprice} Euro for students and {prsnprice} Euro is other peoples.")
+                break
+        
+        else:
+            print("Maybe you have to check this Tour Balkan, it is the highest capacity of the tours we offer ")
