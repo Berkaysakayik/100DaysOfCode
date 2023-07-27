@@ -9,7 +9,7 @@ print("""
 print("""
 ****************************************
 *             Tour Paris!              *
-*  Eiffel Tower icluded all city tour  *
+*  Eiffel Tower included all city tour  *
 *     Three night and four days        *
 *        3000 Euro per person          *
 *           Only for 13 people         *
