@@ -1,8 +1,3 @@
-
-
-
-
-
 sabit = 12500
 sdeneyim = 100
 scocuk = 250
